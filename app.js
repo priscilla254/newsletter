@@ -33,7 +33,7 @@ app.post("/", function(req,res){
     const url= "https://us8.api.mailchimp.com/3.0/lists/e03b946de6";
     const options={
         method:"POST",
-        auth:"Priscilla:ca517603638790a39e21b1fd01584e28-us8"
+        auth:"Priscilla:f570961b69e8027ea7af036b45e6bea2-us8"
     }
     const request= https.request(url, options, function(response){
          if (response.statusCode===200){
